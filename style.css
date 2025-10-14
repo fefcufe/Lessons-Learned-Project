@@ -99,15 +99,6 @@ header {
     padding: 20px;
 }
 
-#footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0fffcb;
-    height: 50px;
-    bottom: 0;
-}
-
 #article-aside-container {
     display: flex;
     align-items: center;
@@ -139,3 +130,35 @@ aside {
 #redes-sociais a:hover {
     color: #ffcc00;
 }
+
+#skills-table {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #caeb70;
+    color: black;
+    margin: 30px auto;
+    box-shadow: 0 0 30px 10px rgba(0,0,0,0.3);
+}
+
+#skills-table th, td, tr {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0fffcb;
+    height: 50px;
+    bottom: 0;
+}
+
