@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0fffcb;
+    top: 0;
+    height: 100px;
+
+}
+
+#titulo {
+    text-align: center;
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-size: normal;
+}
